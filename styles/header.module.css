@@ -1,0 +1,18 @@
+/* styles.css */
+.laptop{
+    display: block;
+    margin-right: 0.5rem;
+  }
+.mobile{
+    display: none;
+    margin-right: 0.5rem;
+}
+  @media (max-width: 768px) {
+    .laptop{
+        display: none;
+      }
+    .mobile{
+        display: block;
+    }
+  }
+  
